@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="swcguild.com.addressbook.AddEditFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addEditScrollView" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="7"
+            android:columnCount="1"
+            android:orientation="vertical"
+            android:useDefaultMargins="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameEditText"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:imeOptions="actionNext"
+                android:hint="@string/hint_name"
+                style="@style/ContactLabelTextView"
+                android:inputType="textCapWords|textPersonName" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phoneEditText"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:imeOptions="actionNext"
+                android:hint="@string/hint_phone"
+                style="@style/ContactLabelTextView"
+                android:inputType="phone" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailEditText"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:imeOptions="actionDone"
+                android:hint="@string/hint_email"
+                style="@style/ContactLabelTextView"
+                android:inputType="textEmailAddress" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_save_contact"
+                android:id="@+id/saveContactButton"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal" />
+        </GridLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ContactBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_contacts">No Contacts</string>
+    <string name="menuitem_add">Add</string>
+    <string name="menuitem_edit">Edit</string>
+    <string name="menuitem_delete">Delete</string>
+    <string name="button_save_contact">Save Contact</string>
+    <string name="button_back">Back to List</string>
+    <string name="hint_name">Name (Required)</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_street">Street</string>
+    <string name="hint_city">City</string>
+    <string name="hint_state">State</string>
+    <string name="hint_zip">Zipcode</string>
+    <string name="label_name">Name:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_phone">Phone:</string>
+    <string name="label_street">Street:</string>
+    <string name="label_city">City:</string>
+    <string name="label_state">State:</string>
+    <string name="label_zip">Zipcode:</string>
+    <string name="confirm_title">Are You Sure?</string>
+    <string name="confirm_message">This will permanently delete the contact.</string>
+    <string name="ok">OK</string>
+    <string name="error_message">You must enter a contact name.</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
